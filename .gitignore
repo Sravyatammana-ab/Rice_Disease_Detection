@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Dataset - ONLY EXCLUDE LARGE DATASET FILES
+dataset/
+CombinedDataset/
+LabelledRice/
+RiceDiseaseDataset/
+
+# OS files
+.DS_Store
+Thumbs.db
